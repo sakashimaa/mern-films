@@ -1,1 +1,23 @@
 @import "tailwindcss";
+
+body {
+  background: #0f0f10;
+  color: #fff;
+}
+
+input,
+textarea {
+  color: #000;
+  background-color: #fff; /* Белый фон */
+}
+
+/* Для других элементов ввода */
+select {
+  color: #000;
+  background-color: #fff;
+}
+
+select option {
+  color: #000;
+  background-color: #fff;
+}
